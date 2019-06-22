@@ -71,7 +71,6 @@ img {
 }
 .tiles > div {
     background-color: white;
-
 }
 .tiles > div > div {
     padding: 1rem;
@@ -94,14 +93,15 @@ img {
 }
 .slide > div {
     display: flex;
-    flex: 1 0 30%;
+    flex: 1 0;
+    flex-basis: 30%;
     padding: 0.3rem;
 }
 .slide > div img {
     object-fit: cover;
 }
 @media screen and (max-width: 600px) {
-    /* .col {
+    .col, .slide > div {
         flex-basis: 100%;
-    } */
+    }
 }
