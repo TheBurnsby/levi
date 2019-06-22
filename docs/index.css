@@ -104,4 +104,7 @@ img {
     .col, .slide > div {
         flex-basis: 100%;
     }
+    img {
+        max-height: 300px;
+    }
 }
